@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Apr  2 23:03:03 2024
+# Process ID: 33304
+# Current directory: C:/Users/Huy/Desktop/HK232/LSI/Lab Lsi/Lab1/LSI_Lab/LSI_Lab.runs/synth_1
+# Command line: vivado.exe -log labLSI.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source labLSI.tcl
+# Log file: C:/Users/Huy/Desktop/HK232/LSI/Lab Lsi/Lab1/LSI_Lab/LSI_Lab.runs/synth_1/labLSI.vds
+# Journal file: C:/Users/Huy/Desktop/HK232/LSI/Lab Lsi/Lab1/LSI_Lab/LSI_Lab.runs/synth_1\vivado.jou
+# Running On: DESKTOP-QBEKAKR, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 17002 MB
+#-----------------------------------------------------------
+source labLSI.tcl -notrace

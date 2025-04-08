@@ -1,0 +1,95 @@
+                          CONFORMAL (R)
+                   Version 20.10-p100 (01-May-2020) (64 bit executable)
+   Copyright (c) Cadence Design Systems, Inc., 1997-2019. All Rights Reserved
+
+
+This program is proprietary and confidential information belonging to
+Cadence Design Systems, Inc., and may be used and disclosed only as authorized
+in a license agreement controlling such use and disclosure.
+
+// Warning: This version is 1433 days old. You can download the latest version from http://downloads.cadence.com.
+
+0
+CPU time     : 0.99    seconds
+Elapse time  : 27      seconds
+Memory usage : 260.43  M bytes
+// Command: read_library slow.lib -lib -revised
+// Parsing file slow.lib ...
+// Warning: (RTL9.17) Cell doesn't have any output pins or all output pins are undriven (blackboxed) (occurrence:1)
+// Note: (RTL9.26) Liberty pin with internal_node use default input_map (occurrence:16)
+// Note: Read Liberty library successfully
+0
+CPU time     : 1.32    seconds
+Elapse time  : 28      seconds
+Memory usage : 278.06  M bytes
+// Command: read_design new_bound_flasher.v -verilog -golden
+// Parsing file new_bound_flasher.v ...
+// Golden root module is set to 'new_bound_flasher'
+// Warning: (RTL1.1) Variable/signal is assigned by more than one concurrent statement (occurrence:2)
+// Warning: (RTL1.3) Variable/signal is assigned by both blocking and non-blocking assignments (occurrence:12)
+// Warning: (RTL1.5b) Potential loss of RHS msb or carry-out bit (occurrence:2)
+// Warning: (RTL1.8) Latch is assigned by blocking assignments (occurrence:25)
+// Warning: (RTL5.3) Case expressions/items are resized (occurrence:2)
+// Note: (RTL8.2) Latch(es) are inferred due to self assignment (occurrence:2)
+// Warning: (RTL25) Non-automatic task/function (occurrence:2)
+// Warning: (DIR6.1) Ignored compiler directive is detected (occurrence:1)
+// Note: Read VERILOG design successfully
+0
+CPU time     : 1.44    seconds
+Elapse time  : 33      seconds
+Memory usage : 293.09  M bytes
+// Command: read_design new_bound_flasher_m.v -verilog -revised
+// Parsing file new_bound_flasher_m.v ...
+// Revised root module is set to 'new_bound_flasher'
+// Warning: (RTL1.1) Variable/signal is assigned by more than one concurrent statement (occurrence:5)
+// Warning: (RTL14) Signal has input but it has no output (occurrence:9)
+// Note: Read VERILOG design successfully
+0
+CPU time     : 1.56    seconds
+Elapse time  : 37      seconds
+Memory usage : 293.09  M bytes
+// Command: set_mapping_method -name only
+0
+// Command: set_system_mode lec
+// Processing Golden ...
+// Modeling Golden ...
+// (F1) Created 5 wire resolution gate(s) due to multiple-driven net(s)
+// Processing Revised ...
+// Modeling Revised ...
+// (F1) Created 5 wire resolution gate(s) due to multiple-driven net(s)
+CPU time     : 1.80    seconds
+Elapse time  : 41      seconds
+Memory usage : 317.83  M bytes
+// Mapping key points ...
+================================================================================
+Mapped points: SYSTEM class
+--------------------------------------------------------------------------------
+Mapped points     PI     PO     DFF    DLAT      Total   
+--------------------------------------------------------------------------------
+Golden            3      16     25     9         53      
+--------------------------------------------------------------------------------
+Revised           3      16     25     9         53      
+================================================================================
+0
+// Command: map_key_points
+// Mapping key points ...
+================================================================================
+Mapped points: SYSTEM class
+--------------------------------------------------------------------------------
+Mapped points     PI     PO     DFF    DLAT      Total   
+--------------------------------------------------------------------------------
+Golden            3      16     25     9         53      
+--------------------------------------------------------------------------------
+Revised           3      16     25     9         53      
+================================================================================
+0
+// Command: add_compared_points -all
+// 50 compared points added to compare list
+0
+// Command: compare
+================================================================================
+Compared points      PO     DFF    DLAT      Total   
+--------------------------------------------------------------------------------
+Equivalent           16     25     9         50      
+================================================================================
+0
